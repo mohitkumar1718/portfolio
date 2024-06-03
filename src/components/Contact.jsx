@@ -20,7 +20,7 @@ const Contact = () => {
       initial='hidden'
       whileInView='show'
      />
-     <motion.form action="" className=" w-full lg:w-3/5 backdrop-blur-md mx-auto lg:ml-auto p-7 shadow-xl "
+     <motion.form action="" className=" w-screen lg:w-3/5 backdrop-blur-md mx-auto lg:ml-auto p-7 shadow-xl "
      variants={variants}
      initial='hidden2'
      whileInView='show'

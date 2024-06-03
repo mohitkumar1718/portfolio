@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <div className=' bg-[url("../public/background.svg")] bg-center bg-cover bg-no-repeat bg-fixed  '>
+    <div className=' bg-[url("../public/background.svg")] bg-center bg-cover bg-no-repeat bg-fixed overflow-x-hidden '>
       <Navbar/>
       <Hero/>
       <AboutMe/>

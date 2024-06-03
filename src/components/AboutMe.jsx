@@ -24,7 +24,7 @@ const AboutMe = () => {
           <h1 className="text-2xl">Skills</h1>
           <div className="flex flex-wrap">
           {skills.map((skill,i)=>{return (
-            <div className=" mx-14 my-10" key={skill.src}>
+            <div className=" mx-2 md:mx-14 my-10" key={skill.src}>
             <motion.img className="h-10 mx-auto " src={skill.src} alt="" 
               initial={{y:-10}}
               animate={{

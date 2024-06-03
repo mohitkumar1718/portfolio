@@ -12,8 +12,8 @@ const variants={
 
 
   return (
-    <nav className="  flex py-6 px-8  border-b-2 justify-between font-semibold fixed w-full bg-white  z-10">
-     <motion.h1 className=" text-2xl my-auto"
+    <nav className="  flex py-6 px-8  border-b-2 justify-between font-semibold fixed w-screen bg-white  z-10">
+     <motion.h1 className="text-xl sm:text-2xl my-auto"
      variants={variants}
      animate='show'
      initial='hidden'
@@ -31,7 +31,7 @@ const variants={
        <Link to="Project" smooth={true} offset={50} duration={500} className="mr-5 cursor-pointer" >PROJECT</Link>
        <Link to="Contact" smooth={true} offset={50} duration={500} className="mr-5 cursor-pointer"  >CONTACT</Link>
      </motion.navItems>
-     <motion.h1 className="mr-4 text-lg bg-green-700 p-2 rounded-lg text-white cursor-pointer"
+     <motion.h1 className="mr-4 text-lg bg-green-700 p-1 sm:p-2 rounded-lg text-white cursor-pointer"
      variants={variants}
      animate='show'
      initial='hidden'
