@@ -8,7 +8,7 @@ const Contact = () => {
     transition:{duration:1.5 , type:'spring', stiffness:100 }
   },
     hidden:{opacity:0, x:'-50vh'},
-    hidden2:{opacity:0, x:'50vh'},
+    hidden2:{opacity:0, x:'20vh'},
     
 }
   return (
