@@ -31,12 +31,12 @@ const variants={
        <Link to="Project" smooth={true} offset={50} duration={500} className="mr-5 cursor-pointer" >PROJECT</Link>
        <Link to="Contact" smooth={true} offset={50} duration={500} className="mr-5 cursor-pointer"  >CONTACT</Link>
      </motion.navItems>
-     <motion.h1 className="mr-4 text-lg bg-green-700 p-1 sm:p-2 rounded-lg text-white cursor-pointer"
+     <motion.a href="mailto:mohitkr7982@gmail.com" className="mr-4 text-lg bg-green-700 p-1 sm:p-2 rounded-lg text-white cursor-pointer"
      variants={variants}
      animate='show'
      initial='hidden'
      whileHover='hover'
-     >💼Hire Me</motion.h1>
+     >💼Hire Me</motion.a>
     </nav>
   )
 }
